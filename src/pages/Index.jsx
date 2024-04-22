@@ -78,7 +78,7 @@ const Index = () => {
                 icon={<FaTrash />}
                 onClick={() => {
                   setSelectedDate(day);
-                  deleteEvent();
+                  setTimeout(deleteEvent, 0);
                 }}
               />
             </Flex>
